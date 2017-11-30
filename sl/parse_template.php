@@ -27,7 +27,7 @@
 
 // Код написан для фреймворка CodeIgniter, для использования в других системах/фреймворках
 // необходимо переписать запросы к БД и путь к файлу (APPPATH)
-public function createStructire($id, $template)
+public function createStructure($id, $template)
 {
     // путь к шаблону
     $template_file = APPPATH . 'misc' . DIRECTORY_SEPARATOR . $template . '_template';
