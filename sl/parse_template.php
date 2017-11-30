@@ -77,7 +77,7 @@ public function createStructire($id, $template)
             // по этому для каждого элемента хранится его полный путь от родиесли предыдущий был 3-го уровня, убираем бОльшие значения если следующий 1-2 уровеньтеля
             // вида 1.3.5.9, где текущий элемент с id = 9 и все его родители до корня
             $hierarchy = implode('.', $current_path);
-            $this->db->update('pd_project_structure', ['hierarchy' => $hierarchy], ['id' => $data['id']]);
+            $this->db->update('__table__', ['hierarchy' => $hierarchy], ['id' => $data['id']]);
         }
     }
 
