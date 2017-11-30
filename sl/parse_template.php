@@ -84,4 +84,5 @@ public function createStructire($id, $template)
     return TRUE;
 }
 
-// файл подготовлен для 
+// файл подготовлен для https://www.facebook.com/nikicoder/posts/117436665706178
+// 30.11.2017
